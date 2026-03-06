@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AFCF12AE2F59FD81000EBEBD /* TodoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFCF12AC2F59FD81000EBEBD /* TodoModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AFCF12902F59FC03000EBEBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		AFCF12822F59FC01000EBEBD /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFCF128F2F59FC03000EBEBD /* TodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFCF12992F59FC03000EBEBD /* TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCF12AD2F59FD81000EBEBD /* TodoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		AFCF12792F59FC01000EBEBD = {
 			isa = PBXGroup;
 			children = (
+				AFCF12AC2F59FD81000EBEBD /* TodoModel.xcdatamodeld */,
 				AFCF12842F59FC01000EBEBD /* Todo */,
 				AFCF12922F59FC03000EBEBD /* TodoTests */,
 				AFCF129C2F59FC03000EBEBD /* TodoUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFCF12AE2F59FD81000EBEBD /* TodoModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +585,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFCF12AC2F59FD81000EBEBD /* TodoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFCF12AD2F59FD81000EBEBD /* TodoModel.xcdatamodel */,
+			);
+			currentVersion = AFCF12AD2F59FD81000EBEBD /* TodoModel.xcdatamodel */;
+			path = TodoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AFCF127A2F59FC01000EBEBD /* Project object */;
 }
